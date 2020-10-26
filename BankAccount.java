@@ -3,9 +3,12 @@ public class BankAccount{
   private int accountID;
   private String password;
 
-  public void credentials(int a, String b){
+  public BankAccount(int a, String b){
     accountID = a;
     password = b;
     balance = 0;
+  }
+  public double getBalance(){
+    return balance;
   }
 }
