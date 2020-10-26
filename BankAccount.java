@@ -31,7 +31,7 @@ public class BankAccount{
     balance -= amount;
     return true;
   }
-  public toString(){
+  public String toString(){
     return Integer.toString(accountID)+"\t"+Double.toString(balance);
   }
 }
