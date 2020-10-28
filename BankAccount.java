@@ -32,6 +32,6 @@ public class BankAccount{
     return true;
   }
   public String toString(){
-    return Integer.toString(accountID)+"\t"+Double.toString(balance);
+    return "#"+Integer.toString(accountID)+"\t$"+Double.toString(balance);
   }
 }
